@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PropsForFunctionalComponet from "./PropsForFunctionalComponet";
 
 const FunctionalAndClassComponet = () => {
   const [data, setData] = useState({
@@ -6,7 +7,7 @@ const FunctionalAndClassComponet = () => {
     age: "25",
   });
   const { name, age } = data;
-  return <div>{name}</div>;
+  return <div><center><PropsForFunctionalComponet thisValueProps={name} thisVlaueage={age}/></center></div>;
 };
 
 export default FunctionalAndClassComponet;

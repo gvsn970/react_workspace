@@ -1,6 +1,7 @@
 import ClassComponet from "./ClassComponet";
 import React from "react";
 import FunctionalAndClassComponet from "./FunctionalAndClassComponet";
+import PropsForFunctionalComponet from "./PropsForFunctionalComponet";
 
 class App extends React.Component {
   state = {
@@ -15,8 +16,9 @@ class App extends React.Component {
             <ClassComponet name={this.state.name} age={this.state.age} />
           </h1>
           <h2>
-            <FunctionalAndClassComponet />
+            <FunctionalAndClassComponet/>
           </h2>
+         
         </center>
       </div>
     );
