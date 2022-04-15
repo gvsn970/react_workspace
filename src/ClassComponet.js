@@ -4,7 +4,9 @@ class ClassComponet extends React.Component {
     return (
       <div>
         <center>
-          <h1>Hello {this.props.name}  {this.props.age}</h1>
+          <h1>
+            Hello {this.props.name} {this.props.age}
+          </h1>
         </center>
       </div>
     );
