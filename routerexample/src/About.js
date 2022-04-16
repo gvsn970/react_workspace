@@ -1,9 +1,12 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 const About = () => {
+    const params=useParams();
   return (
     <div>
-      <h1>Welcome To About page</h1>
+      <h1>Welcome To About page {params.name}</h1>
+     
     </div>
   );
 }
